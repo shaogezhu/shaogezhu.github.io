@@ -8,13 +8,25 @@
     <author>
       <name>田埂、</name>
     </author>
-    <updated>2020-08-13T13:45:48.000Z</updated>
+    <updated>2022-03-21T14:21:08.000Z</updated>
     <category term="Java" />
     <category term="Spring" />
     <category term="Linux" />
     <category term="后端" />
     <category term="面试" />
     <category term="高并发" />
+    <entry>
+        <id>http://shaogezhu.cn/8288b3ca53fa/</id>
+        <title>first-one</title>
+        <link rel="alternate" href="http://shaogezhu.cn/8288b3ca53fa/"/>
+        <content type="html">&lt;h2 id=&#34;hello-world~&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#hello-world~&#34;&gt;#&lt;/a&gt; Hello world~&lt;/h2&gt;
+&lt;p&gt;你好呀  test&lt;/p&gt;
+</content>
+        <category term="计算机科学" scheme="http://shaogezhu.cn/categories/computer-science/" />
+        <category term="Java" scheme="http://shaogezhu.cn/categories/computer-science/java/" />
+        <category term="零基础学Java语言-浙江大学-翁恺" scheme="http://shaogezhu.cn/categories/computer-science/java/course-1/" />
+        <updated>2022-03-21T14:21:08.000Z</updated>
+    </entry>
     <entry>
         <id>http://shaogezhu.cn/4284d3193e14/</id>
         <title>Step.4 主题特殊功能</title>
@@ -71,11 +83,11 @@
           &lt;div class=&#34;info&#34;&gt;
           &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWU=&#34;&gt;優萌初華&lt;/span&gt;
           &lt;p class=&#34;desc&#34;&gt;琉璃的医学 &amp; 编程笔记&lt;/p&gt;
-          &lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;item&#34; title=&#34;霜月琉璃&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWU=&#34; data-background-image=&#34;/images/avatar.jpg&#34;&gt;&lt;/span&gt;
+          &lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;item&#34; title=&#34;霜月琉璃&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWU=&#34; data-background-image=&#34;//cdn.jsdelivr.net/gh/shaogezhu/shaogezhu.github.io@latest/images/avatar.jpg&#34;&gt;&lt;/span&gt;
           &lt;div class=&#34;info&#34;&gt;
           &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWU=&#34;&gt;優萌初華&lt;/span&gt;
           &lt;p class=&#34;desc&#34;&gt;https://shoka.lostyu.me&lt;/p&gt;
-          &lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;item&#34; title=&#34;優萌初華&#34; style=&#34;--block-color:#9d5b8b;&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWU=&#34; data-background-image=&#34;/images/404.png&#34;&gt;&lt;/span&gt;
+          &lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;item&#34; title=&#34;優萌初華&#34; style=&#34;--block-color:#9d5b8b;&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWU=&#34; data-background-image=&#34;//cdn.jsdelivr.net/gh/shaogezhu/shaogezhu.github.io@latest/images/404.png&#34;&gt;&lt;/span&gt;
           &lt;div class=&#34;info&#34;&gt;
           &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWU=&#34;&gt;優萌初華&lt;/span&gt;
           &lt;p class=&#34;desc&#34;&gt;琉璃的医学 &amp; 编程笔记&lt;/p&gt;
@@ -413,7 +425,7 @@ H&lt;sub&gt;2&lt;/sub&gt;0&lt;br /&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;details class=&#34;success&#34;&gt;&lt;summary&gt;绿色&lt;/summary&gt;&lt;div&gt;
-&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;優萌初華&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWU=&#34; data-background-image=&#34;/images/404.png&#34;&gt;&lt;/span&gt;
+&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;優萌初華&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWU=&#34; data-background-image=&#34;//cdn.jsdelivr.net/gh/shaogezhu/shaogezhu.github.io@latest/images/404.png&#34;&gt;&lt;/span&gt;
           &lt;div class=&#34;info&#34;&gt;
           &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWU=&#34;&gt;優萌初華&lt;/span&gt;
           &lt;p class=&#34;desc&#34;&gt;https://shoka.lostyu.me&lt;/p&gt;
@@ -1872,16 +1884,5 @@ http.createServer((req, res) &amp;#x3D;&amp;gt; {
         <content type="html">&lt;p&gt;This post has a long title. Make sure the title displayed right.&lt;/p&gt;
 </content>
         <updated>2013-12-24T15:31:06.000Z</updated>
-    </entry>
-    <entry>
-        <id>http://shaogezhu.cn/d50896b931b8/</id>
-        <title>Categories</title>
-        <link rel="alternate" href="http://shaogezhu.cn/d50896b931b8/"/>
-        <content type="html">&lt;p&gt;This post contains 3 categories. Make sure your theme can display all of the categories.&lt;/p&gt;
-</content>
-        <category term="Foo" scheme="http://shaogezhu.cn/categories/Foo/" />
-        <category term="Bar" scheme="http://shaogezhu.cn/categories/Foo/Bar/" />
-        <category term="Baz" scheme="http://shaogezhu.cn/categories/Foo/Bar/Baz/" />
-        <updated>2013-12-24T15:30:09.000Z</updated>
     </entry>
 </feed>
