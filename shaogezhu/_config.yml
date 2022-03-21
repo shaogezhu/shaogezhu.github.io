@@ -80,7 +80,10 @@ theme: shoka # edit for Theme.shoka
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/shaogezhu/shaogezhu.github.io.git
+  repo: 
+    coding: https://e.coding.net/shaogezhu/shaogezhu/shaogezhu.git
+#    coding: git@e.coding.net:shaogezhu/shaogezhu/shaogezhu.git
+    github: https://github.com/shaogezhu/shaogezhu.github.io.git
   branch: master
 
 
