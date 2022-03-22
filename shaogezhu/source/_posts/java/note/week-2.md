@@ -2,11 +2,11 @@
 title: 第2周 判断
 date: 2020/04/13 19:12:45
 categories:
-- [计算机科学, Java, 零基础学Java语言-浙江大学-翁恺]
+- [Java, 学习笔记]
 tags:
 ---
 
-:::note info
+:::info
 以下为个人学习笔记和习题整理
 课程：零基础学Java语言-浙江大学-翁恺 @ 中国大学MOOC 
 https://www.icourse163.org/course/ZJU-1001541001

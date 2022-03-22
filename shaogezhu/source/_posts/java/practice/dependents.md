@@ -2,7 +2,7 @@
 title: Step.1 依赖插件
 date: 2020/08/13 20:46:48
 categories:
-- [计算机科学, 二进制杂谈, Theme Shoka Documentation]
+- [Java, 技术实践]
 tags:
 - Hexo
 - 教程

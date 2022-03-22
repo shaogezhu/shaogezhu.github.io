@@ -2,7 +2,7 @@
 title: Step.4 主题特殊功能
 date: 2020/08/13 21:45:48
 categories:
-- [计算机科学, 二进制杂谈, Theme Shoka Documentation]
+- [Java, 技术实践]
 tags:
 - Hexo
 - 教程
@@ -88,7 +88,7 @@ valine:
   url: https://shoka.lostyu.me
   desc: 琉璃的医学 & 编程笔记
   color: "#9d5b8b"
-{% endlinks %}
+  {% endlinks %}
 
 
 2. 以上标签块里的内容，还可以保存到一个`yml`文件中，然后使用`linksfile`标签。
@@ -221,7 +221,7 @@ quiz: true
     - 虚函数不能有返回值
     - 能定义虚构造函数
     - A、B、C都不对 {.correct}
-{.options}
+    {.options}
 
 2. 有基类`SHAPE`，派生类`CIRCLE`，声明如下变量：  {.quiz .multi}
     ```cpp
@@ -233,7 +233,7 @@ quiz: true
     - `q1=&shape1;`
     - `shape1=circle1;` {.correct}
     - `circle1=shape1;`
-{.options}
+    {.options}
     > - :heavy_check_mark: 令基类对象的指针指向派生类对象
     > - :x: 派生类指针指向基类的引用
     > - :heavy_check_mark: 派生类对象给基类对象赋值
@@ -490,8 +490,8 @@ H~2~0
   desc: 琉璃的医学 & 编程笔记
   image: https://cdn.jsdelivr.net/gh/amehime/shoka@latest/images/avatar.jpg
   color: "#e9546b"
-{% endlinks %}
-;;;
+  {% endlinks %}
+  ;;;
 
 ;;;id1 卡片2
 这里是卡片2的内容
@@ -594,7 +594,7 @@ H~2~0
 - site: 優萌初華
   url: https://shoka.lostyu.me
   color: "#e9546b"
-{% endlinks %}
+  {% endlinks %}
 +++
 
 +++warning 黄色
@@ -703,7 +703,7 @@ H~2~0
 - title: 列表2
   list:
     - https://music.163.com/#/playlist?id=2031842656
-{% endmedia %}
+  {% endmedia %}
 
 
 {% media video %}
@@ -711,7 +711,7 @@ H~2~0
   url: https://cdn.kastatic.org/ka-youtube-converted/O_nY1TM2RZM.mp4/O_nY1TM2RZM.mp4#t=0
 - name: "测试2"
   url: https://cdn.kastatic.org/ka-youtube-converted/O_nY1TM2RZM.mp4/O_nY1TM2RZM.mp4#t=0
-{% endmedia %}
+  {% endmedia %}
 
 
 # `math`数学公式

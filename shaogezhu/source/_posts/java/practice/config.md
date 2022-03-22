@@ -2,7 +2,7 @@
 title: Step.2 基本配置
 date: 2020/08/13 20:56:48
 categories:
-- [计算机科学, 二进制杂谈, Theme Shoka Documentation]
+- [Java, 技术实践]
 tags:
 - Hexo
 - 教程
