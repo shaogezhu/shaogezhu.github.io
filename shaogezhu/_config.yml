@@ -15,7 +15,7 @@ timezone: 'Asia/Shanghai'
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://shaogezhu.cn
 root: /
-permalink: :hash/ # edit for Theme.shoka
+permalink: :year/:i_month/:hash/ # edit for Theme.shoka
 permalink_defaults:
 
 # Directory

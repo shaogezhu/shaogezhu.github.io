@@ -19,9 +19,11 @@ menu:
     archives: /archives/ || list-alt
     categories: /categories/ || th
     tags: /tags/ || tags
-  friends: /friends/ || heart
-  links: /links/ || magic
-  about: /about/ || about
+  links: 
+    default: / || magic
+    friends: /friends/ || link
+    collection: /collection/ || star
+  about: /about/ || sakura
 
 
 # Social Links
