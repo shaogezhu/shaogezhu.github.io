@@ -32,13 +32,13 @@ menu:
 # Value before `||` delimiter is the target permalink,
 # secend value is the name of Font icon.
 social:
-  github: https://github.com/amehime || github || "#191717"
+  github: https://github.com/shaogezhu || github || "#191717"
   #google: https://plus.google.com/yourname || google
-  twitter: https://twitter.com/amehime || twitter || "#00aff0"
-  zhihu: https://www.zhihu.com/people/rurismzk || zhihu || "#1e88e5"
-  music: https://music.163.com/#/user/home?id=12886823 || cloud-music || "#e60026"
-  weibo: https://weibo.com/amehime || weibo || "#ea716e"
-  about: https://about.me/amehime || address-card || "#3b5998"
+  twitter: https://shaogezhu.cn || twitter || "#00aff0"
+  zhihu: https://shaogezhu.cn || zhihu || "#1e88e5"
+  music: https://music.163.com/#/user/home?id=1371256594 || cloud-music || "#e60026"
+  weibo: https://shaogezhu.cn || weibo || "#ea716e"
+  about: https://shaogezhu.cn || address-card || "#3b5998"
   #email: mailto:yourname@mail.com || envelope || "#55acd5"
   #facebook: https://www.facebook.com/yourname || facebook
   #stackoverflow: https://stackoverflow.com/yourname || stack-overflow

@@ -6,10 +6,31 @@ hexo  g    完整命令为hexo generate，用于生成静态文件。
 
 hexo  d   完整命令为hexo deploy，用于将本地文件发布到github上。
 
-
+hexo algolia  刷新索索引擎缓存
 ---------------------------------
 
 hexo n 完整命令为hexo new，用于新建一篇文章。
 
 
 hexo s 完整命令为hexo server，用于启动服务器，主要用来本地预览。
+
+
+
+--------------------------------
+
+文中名词解释：
+名词		解释		示例
+title		文章标题		标题
+date		文章发布日期	2022/03/22 20:46:25
+update		文章更新时间	2022/03/25 20:46:25
+categories	文章分类		- [Java, 学习笔记]
+tags		文章标签
+sticky		文章是否置顶	true
+photos		文章内容图片(第一张默认封面)	assets/wallpaper-2572384.jpg或者http://placehold.it/350x150.jpg
+cover		文章封面图	assets/wallpaper-2572384.jpg或者http://placehold.it/350x150.jpg
+link		直接打开新的网页跳转指定地址  http://www.baidu.com/
+valine:
+  placeholder:	评论框中的汉字
+audio:		音频
+math: 		数学公式		true
+fancybox: 	展示外接链接图片时需要配置		false
