@@ -13,7 +13,7 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://shaogezhu.cn
+url: https://shaogezhu.cn
 root: /
 permalink: :year/:i_month/:hash/ # edit for Theme.shoka
 permalink_defaults:
@@ -59,6 +59,8 @@ category_map: # edit for Theme.shoka
   面试: interview
   心情随写: life
   Bug修复: bug
+  MySQL: mysql
+  
 #  二进制杂谈: note
 #  零基础学Java语言-浙江大学-翁恺: course-1
 #  Theme Shoka Documentation: theme-shoka-doc
