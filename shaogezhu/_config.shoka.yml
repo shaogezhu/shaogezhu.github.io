@@ -52,7 +52,7 @@ social:
 # 页尾全站统计
 footer:
   # Specify the date when the site was setup. If not defined, current year will be used.
-  since: 2010
+  since: 2021
   count: true
 # 文章界面统计
 post:
@@ -134,7 +134,6 @@ font:
     external: true
     family: Inconsolata
 
-  
 
 #文章评论
 # ---------------------------------------------------------------
@@ -144,14 +143,25 @@ font:
 # Comments
 # Valine
 # For more information: https://valine.js.org, https://github.com/xCss/Valine
+#valine:
+#  appId: 5IEIORgJfoyumlupFa5JSEOI-gzGzoHsz
+#  appKey: sGCCI5mGDgF1WznENgWRiaND
+#  placeholder: 你是我一生只会遇见一次的惊喜... # Comment box placeholder
+#  pageSize: 10 # Pagination size
+#  lang: zh-CN
+#  visitor: true # 文章访问量统计
+#  NoRecordIP: false # 不记录 IP
 valine:
-  appId: 5IEIORgJfoyumlupFa5JSEOI-gzGzoHsz
-  appKey: sGCCI5mGDgF1WznENgWRiaND
-  placeholder: 你是我一生只会遇见一次的惊喜... # Comment box placeholder
+  appId: MtDb80choqwSYeVbjoHMDcyw-MdYXbMMI
+  appKey: SVh7uxmeEjKVD5DwP9BY7vcp
+  placeholder: 你是我一生只会遇见一次的惊喜...
+  avatar: mp # Gravatar style : mp, identicon, monsterid, wavatar, robohash, retro
   pageSize: 10 # Pagination size
   lang: zh-CN
   visitor: true # 文章访问量统计
   NoRecordIP: false # 不记录 IP
+  serverURLs: https://MtDb80ch.api.lncldglobal.com #LeanCloud 国际版时需配置，括号内为 appid 的前八位，记得删除括号									 
+  powerMode: true
   tagMeta:
     visitor: 新朋友
     master: 主人
@@ -164,11 +174,11 @@ valine:
     investor: "var(--color-pink)"
   tagMember:
     master:
-      # - hash of master@email.com
+      - 8f25df25410dc851166cc66a6a11be1f
       # - hash of master2@email.com
     friend:
-      # - hash of friend@email.com
-      # - hash of friend2@email.com
+      - 9028f2a525ca215e0ed84aebf41532ec
+
     investor:
       # - hash of investor1@email.com
 

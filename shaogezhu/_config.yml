@@ -58,6 +58,7 @@ category_map: # edit for Theme.shoka
   技术实践: practice
   面试: interview
   心情随写: life
+  Bug修复: bug
 #  二进制杂谈: note
 #  零基础学Java语言-浙江大学-翁恺: course-1
 #  Theme Shoka Documentation: theme-shoka-doc
@@ -98,7 +99,7 @@ autoprefixer:
 
 markdown:
   render: # 渲染器设置
-    html: false # 过滤 HTML 标签
+    html: true # 过滤 HTML 标签
     xhtmlOut: true # 使用 '/' 来闭合单标签 （比如 <br />）。
     breaks: true # 转换段落里的 '\n' 到 <br>。
     linkify: true # 将类似 URL 的文本自动转换为链接。
@@ -151,6 +152,44 @@ minify:
     compress:
     exclude:
       - '**/*.min.js'
+     
+#plugins: 
+#  - hexo-algoliasearch
+
+#网站搜索功能	
+algolia:
+  appId: 05I1G07JOS
+  apiKey: 48e2af002c38ec9b5489b16e0d0d4d3d
+  adminApiKey: 29b96668c5327c1e80b8c3a028fc8bce
+  chunkSize: 5000
+  indexName: ReverseSacle_search
+  fields:
+    - title #必须配置
+    - path #必须配置
+    - categories #推荐配置
+    - content:strip:truncate,0,4000
+    - gallery
+    - photos
+    - tags
+
+
+#变更每篇文章的阅读时常
+#shoka 主题默认采取了默认的配置，所以覆盖相应配置就行了
+symbols_count_time:
+  symbols: true
+  time: true
+  total_symbols: true
+  total_time: true
+  exclude_codeblock: false
+  awl: 3
+  wpm: 200
+  suffix: "mins."
+  
+#exclude_codeblock: 是否排除代码块区域的字数统计
+#	awl: 平均字符长度 (多少符字算一个中文或英文) 中文约是 2，英文约是 5，其他约是 6
+# 	wpm: 每分钟阅读字数  正常值约为 275 字，较小值约为 200 字，较快值约 350 字
+#suffix: 当总字数小于每分钟阅读字数时，默认采取的时间类型，不填写默认类型采取 "mins."
+
 
 
 feed:
