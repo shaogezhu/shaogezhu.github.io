@@ -1,13 +1,19 @@
-- site: 優萌初華
-  owner: 霜月琉璃
-  url: https://shoka.lostyu.me
-  desc: 琉璃的医学 & 编程笔记
-  image: https://cdn.jsdelivr.net/gh/amehime/shoka@latest/images/avatar.jpg
+- site: 田埂の技术分享
+  owner: 田埂、
+  url: https://www.shaogezhu.cn
+  desc: 仍在奔赴远方路上的少年
+  image: https://cdn.jsdelivr.net/gh/shaogezhu/shaogezhu.github.io@latest/images/avatar.jpg
   color: "#e9546b"
 
-- site: 優萌初華
-  owner: 霜月琉璃
-  url: https://shoka.lostyu.me
-  desc: 琉璃的医学 & 编程笔记
-  image: https://cdn.jsdelivr.net/gh/amehime/shoka@latest/images/avatar.jpg
-  color: "#e9546b"
+- site: 田埂の技术分享
+  owner: 田埂、
+  url: https://www.shaogezhu.cn
+  desc: 仍在奔赴远方路上的少年
+  image: https://cdn.jsdelivr.net/gh/shaogezhu/shaogezhu.github.io@latest/images/my/66fdf39985471927.jpg
+
+- site: 田埂の技术分享
+  owner: 田埂、
+  url: https://www.shaogezhu.cn
+  desc: 仍在奔赴远方路上的少年
+  image: https://cdn.jsdelivr.net/gh/shaogezhu/shaogezhu.github.io@latest/images/my/-244fe442f506f29f.jpg
+  color: "#9d5b8b"

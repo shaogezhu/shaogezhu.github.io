@@ -1,13 +1,12 @@
-- site: 優萌初華
-  owner: 霜月琉璃
-  url: https://shoka.lostyu.me
-  desc: 琉璃的医学 & 编程笔记
-  image: https://cdn.jsdelivr.net/gh/amehime/shoka@latest/images/avatar.jpg
+- site: 有赞
+  owner: 有赞
+  url: https://tech.youzan.com/tag/middleware/
+  desc: 有赞中间件技术博客
+  image: https://cdn.jsdelivr.net/gh/shaogezhu/shaogezhu.github.io@latest/images/my/youzan.png
   color: "#e9546b"
 
-- site: 優萌初華
-  owner: 霜月琉璃
-  url: https://shoka.lostyu.me
-  desc: 琉璃的医学 & 编程笔记
-  image: https://cdn.jsdelivr.net/gh/amehime/shoka@latest/images/avatar.jpg
-  color: "#e9546b"
+- site: 美团
+  owner: 美团
+  url: https://tech.meituan.com/
+  desc: 美团技术博客
+  image: https://cdn.jsdelivr.net/gh/shaogezhu/shaogezhu.github.io@latest/images/my/meituan.png

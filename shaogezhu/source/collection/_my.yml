@@ -1,0 +1,28 @@
+- site: 占小狼
+  owner: 占小狼
+  url: https://www.jianshu.com/u/90ab66c248e6
+  desc: 占小狼的简书博客
+  image: https://cdn.jsdelivr.net/gh/shaogezhu/shaogezhu.github.io@latest/images/my/zxl.jpg
+  color: "#e9546b"
+
+- site: 闪电侠
+  owner: 闪电侠
+  url: https://www.jianshu.com/u/4fdc8c2315e8
+  desc: 大众点评基础架构部高级研发工程师
+  image: https://cdn.jsdelivr.net/gh/shaogezhu/shaogezhu.github.io@latest/images/my/sdx.png
+
+  
+- site: R 大
+  owner: RednaxelaFX
+  url: https://www.zhihu.com/people/rednaxelafx/answers
+  desc: 软件工程师、主攻高级编程语言虚拟机的设计与实现
+  image: https://pic2.zhimg.com/ee07454da2fc6d007c29ca9b393f94ac_xl.jpg?source=32738c0c
+  color: "#9d5b8b"
+  
+    
+- site: SpringBoot中文社区
+  owner: RednaxelaFX
+  url: https://springboot.io/
+  desc: Spring Boot中文社区是由Spring爱好者共同创建维护的一个技术社区
+  image: https://springboot.io/uploads/default/original/1X/58c4e5c7fd6714e4fa7cc5527d9091080207633d.png
+  color: "#e9546b"
