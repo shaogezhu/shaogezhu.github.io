@@ -160,7 +160,7 @@ valine:
   lang: zh-CN
   visitor: true # 文章访问量统计
   NoRecordIP: false # 不记录 IP
-  serverURLs: https://MtDb80ch.api.lncldglobal.com #LeanCloud 国际版时需配置，括号内为 appid 的前八位，记得删除括号									 
+#  serverURLs: https://MtDb80ch.api.lncldglobal.com #LeanCloud 国际版时需配置，括号内为 appid 的前八位，记得删除括号									 
   powerMode: true
   tagMeta:
     visitor: 新朋友
