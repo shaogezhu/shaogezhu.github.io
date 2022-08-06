@@ -8,7 +8,7 @@ tags:
 - Redis
 - 面试
 
-sticky: true
+sticky: false
 audio:
 - https://music.163.com/#/song?id=1901371647
 
