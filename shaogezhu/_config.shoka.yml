@@ -2,7 +2,7 @@
 alternate: 
 
 # Assets 静态文件加速
-statics: //cdn.jsdelivr.net/gh/shaogezhu/shaogezhu.github.io@latest/
+#statics: //cdn.jsdelivr.net/gh/shaogezhu/shaogezhu.github.io@latest/
 #  刷新某个文件 purge.jsdelivr.net/gh/shaogezhu/shaogezhu.github.io@latest/
 
 open_graph:

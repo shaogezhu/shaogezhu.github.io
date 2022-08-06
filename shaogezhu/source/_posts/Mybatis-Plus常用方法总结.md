@@ -624,6 +624,20 @@ lambdaQuery().eq(Entity::getId, value).list();
 
 <br>
 
+### 增加扫描路径
+```java
+@MapperScan("com.lemon.goods")
+@SpringBootApplication
+public class GoodsApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(GoodsApplication.class);
+    }
+}
+```
+
+
+
+<br>
 
 ### 全局配置
 

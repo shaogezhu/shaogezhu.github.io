@@ -88,7 +88,7 @@ theme: shoka # edit for Theme.shoka
 deploy:
   type: git
   repo: 
-    coding: https://e.coding.net/shaogezhu/shaogezhu/shaogezhu.git
+#    coding: https://e.coding.net/shaogezhu/shaogezhu/shaogezhu.git
 #    coding: git@e.coding.net:shaogezhu/shaogezhu/shaogezhu.git
     github: https://github.com/shaogezhu/shaogezhu.github.io.git
   branch: master
