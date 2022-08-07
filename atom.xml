@@ -287,7 +287,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;-R&lt;/code&gt;  可以递归地修改文件访问权限，例如  &lt;code&gt;chmod -R 777 /home/lion&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;修改权限的确简单，但是理解其深层次的意义才是更加重要的。下面我们来系统的学习  &lt;code&gt;Linux&lt;/code&gt;  的文件权限。&lt;/p&gt;
+&lt;p&gt;修改权限的确简单，但是理解其深层次的意义才是更加重要的。下面我们来系统的了解  &lt;code&gt;Linux&lt;/code&gt;  的文件权限。&lt;/p&gt;
 &lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@lion ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;# ls -l&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;drwxr-xr-x &lt;span class=&#34;token number&#34;&gt;5&lt;/span&gt; root root &lt;span class=&#34;token number&#34;&gt;4096&lt;/span&gt; Apr &lt;span class=&#34;token number&#34;&gt;13&lt;/span&gt;  &lt;span class=&#34;token number&#34;&gt;2020&lt;/span&gt; climb&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;lrwxrwxrwx &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt; root root    &lt;span class=&#34;token number&#34;&gt;7&lt;/span&gt; Jan &lt;span class=&#34;token number&#34;&gt;14&lt;/span&gt; 06:41 hello2.c -&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; hello.c&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;-rw-r--r-- &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt; root root  &lt;span class=&#34;token number&#34;&gt;149&lt;/span&gt; Jan &lt;span class=&#34;token number&#34;&gt;13&lt;/span&gt; 06:14 hello.c&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;其中  &lt;code&gt;drwxr-xr-x&lt;/code&gt;  表示文件或目录的权限。让我们一起来解读它具体代表什么？&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;d&lt;/code&gt;  ：表示目录，就是说这是一个目录，普通文件是  &lt;code&gt;-&lt;/code&gt;  ，链接是  &lt;code&gt;l&lt;/code&gt;  。&lt;/li&gt;
@@ -457,7 +457,7 @@
 &lt;p&gt;把本来要显示在终端的命令结果，输送到别的地方（到文件中或者作为其他命令的输入）。&lt;/p&gt;
 &lt;h4 id=&#34;输出重定向&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#输出重定向&#34;&gt;#&lt;/a&gt; 输出重定向  &lt;code&gt;&amp;gt;&lt;/code&gt;&lt;/h4&gt;
 &lt;p&gt;&lt;code&gt;&amp;gt;&lt;/code&gt;  表示重定向到新的文件，  &lt;code&gt;cut -d , -f 1 notes.csv &amp;gt; name.csv&lt;/code&gt;  ，它表示通过逗号剪切  &lt;code&gt;notes.csv&lt;/code&gt;  文件（剪切完有 3 个部分）获取第一个部分，重定向到  &lt;code&gt;name.csv&lt;/code&gt;  文件。&lt;/p&gt;
-&lt;p&gt;我们来看一个具体示例，学习它的使用，假设我们有一个文件  &lt;code&gt;notes.csv&lt;/code&gt;  ，文件内容如下：&lt;/p&gt;
+&lt;p&gt;我们来看一个具体示例，理解它的使用，假设我们有一个文件  &lt;code&gt;notes.csv&lt;/code&gt;  ，文件内容如下：&lt;/p&gt;
 &lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Mark1,951/100,很不错1&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Mark2,952/100,很不错2&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Mark3,953/100,很不错3&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Mark4,954/100,很不错4&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Mark5,955/100,很不错5&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Mark6,956/100,很不错6&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;执行命令：  &lt;code&gt;cut -d , -f 1 notes.csv &amp;gt; name.csv&lt;/code&gt;  最后输出如下内容：&lt;/p&gt;
 &lt;figure class=&#34;highlight tex&#34;&gt;&lt;figcaption data-lang=&#34;TeX&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Mark1&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Mark2&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Mark3&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Mark4&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Mark5&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Mark6&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;blockquote&gt;
 &lt;p&gt;使用  &lt;code&gt;&amp;gt;&lt;/code&gt;  要注意，如果输出的文件不存在它会新建一个，如果输出的文件已经存在，则会覆盖。因此执行这个操作要非常小心，以免覆盖其它重要文件。&lt;/p&gt;
@@ -563,7 +563,7 @@ Mark6
 &lt;p&gt;我们用一张图来表示前后台进程切换：&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;/assets/2022-8/13.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;我们可以使程序在后台运行，成为后台进程，这样在当前终端中我们就可以做其他事情了，而不必等待此进程运行结束。?&lt;/p&gt;
+&lt;p&gt;我们可以使程序在后台运行，成为后台进程，这样在当前终端中我们就可以做其他事情了，而不必等待此进程运行结束。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;守护进程&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#守护进程&#34;&gt;#&lt;/a&gt; 守护进程&lt;/h2&gt;
 &lt;p&gt;一个运行起来的程序被称为进程。在  &lt;code&gt;Linux&lt;/code&gt;  中有些进程是特殊的，它不与任何进程关联，不论用户的身份如何，都在后台运行，这些进程的父进程是  &lt;code&gt;PID&lt;/code&gt;  为 1 的进程，  &lt;code&gt;PID&lt;/code&gt;  为 1 的进程只在系统关闭时才会被销毁。它们会在后台一直运行等待分配工作。我们将这类进程称之为守护进程  &lt;code&gt;daemon&lt;/code&gt;  。&lt;/p&gt;
@@ -615,11 +615,11 @@ Mark6
 &lt;/ol&gt;
 &lt;h4 id=&#34;实际案例&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#实际案例&#34;&gt;#&lt;/a&gt; 实际案例&lt;/h4&gt;
 &lt;h5 id=&#34;1-下载&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1-下载&#34;&gt;#&lt;/a&gt; 1、下载&lt;/h5&gt;
-&lt;p&gt;我们来编译安装  &lt;code&gt;htop&lt;/code&gt;  软件，首先在它的官网下载源码：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9saW5rLmp1ZWppbi5jbj90YXJnZXQ9aHR0cHMlM0ElMkYlMkZiaW50cmF5LmNvbSUyRmh0b3AlMkZzb3VyY2UlMkZodG9wJTIzZmlsZXM=&#34;&gt;bintray.com/htop/source…&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;我们来编译安装  &lt;code&gt;htop&lt;/code&gt;  软件，首先在它的官网下载源码：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iaW50cmF5LmNvbS9odG9wL3NvdXJjZS9odG9wI2ZpbGVz&#34;&gt;bintray.com/htop/source…&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;下载好的源码在本机电脑上使用如下命令同步到服务器上：&lt;/p&gt;
 &lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;scp&lt;/span&gt; 文件名 用户名@服务器ip:目标路径&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;scp&lt;/span&gt; ~/Desktop/htop-3.0.0.tar.gz root@121.42.11.34:.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;也可以使用  &lt;code&gt;wegt&lt;/code&gt;  进行下载：&lt;/p&gt;
 &lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;wegt+下载地址&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;wegt https://bintray.com/htop/source/download_file?file_path&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;htop-3.0.0.tar.gz&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h5 id=&#34;2-解压文件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2-解压文件&#34;&gt;#&lt;/a&gt; 2、解压文件&lt;/h5&gt;
-&lt;figure class=&#34;highlight javascript&#34;&gt;&lt;figcaption data-lang=&#34;javascript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;tar &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;zxvf htop&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;3.0&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;.0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;tar&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;gz # 解压&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cd htop&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;3.0&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;.0&lt;/span&gt; # 进入目录&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;复制代码&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h5 id=&#34;3-配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3-配置&#34;&gt;#&lt;/a&gt; 3、配置&lt;/h5&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;tar&lt;/span&gt; -zxvf htop-3.0.0.tar.gz &lt;span class=&#34;token comment&#34;&gt;# 解压&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token builtin class-name&#34;&gt;cd&lt;/span&gt; htop-3.0.0 &lt;span class=&#34;token comment&#34;&gt;# 进入目录&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h5 id=&#34;3-配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3-配置&#34;&gt;#&lt;/a&gt; 3、配置&lt;/h5&gt;
 &lt;p&gt;执行  &lt;code&gt;./configure&lt;/code&gt;  ，它会分析你的电脑去确认编译所需的工具是否都已经安装了。&lt;/p&gt;
 &lt;h5 id=&#34;4-编译&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#4-编译&#34;&gt;#&lt;/a&gt; 4、编译&lt;/h5&gt;
 &lt;p&gt;执行  &lt;code&gt;make&lt;/code&gt;  命令&lt;/p&gt;
@@ -716,7 +716,7 @@ Mark6
 &lt;/blockquote&gt;
 &lt;h4 id=&#34;免密登录&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#免密登录&#34;&gt;#&lt;/a&gt; 免密登录&lt;/h4&gt;
 &lt;p&gt;&lt;code&gt;ssh&lt;/code&gt;  登录分两种，一种是基于口令（账号密码），另外一种是基于密钥的方式。&lt;/p&gt;
-&lt;p&gt;基于口令，就是每次登录输入账号和密码，显然这样做是比较麻烦的，今天主要学习如何基于密钥实现免密登录。&lt;/p&gt;
+&lt;p&gt;基于口令，就是每次登录输入账号和密码，显然这样做是比较麻烦的，今天主要看一下如何基于密钥实现免密登录。&lt;/p&gt;
 &lt;h5 id=&#34;基于密钥验证原理&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#基于密钥验证原理&#34;&gt;#&lt;/a&gt; 基于密钥验证原理&lt;/h5&gt;
 &lt;p&gt;客户机生成密钥对（公钥和私钥），把公钥上传到服务器，每次登录会与服务器的公钥进行比较，这种验证登录的方法更加安全，也被称为 “公钥验证登录”。&lt;/p&gt;
 &lt;h5 id=&#34;具体实现步骤&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#具体实现步骤&#34;&gt;#&lt;/a&gt; 具体实现步骤&lt;/h5&gt;
@@ -924,7 +924,7 @@ set mouse=a &amp;quot; 激活鼠标，用鼠标选中时相当于进入可视模
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;code&gt;Vim&lt;/code&gt;  配置非常丰富，我们可以通过个性化配置把  &lt;code&gt;Vim&lt;/code&gt;  打造成属于自己的  &lt;code&gt;IDE&lt;/code&gt;  等等。在  &lt;code&gt;github&lt;/code&gt;  上也可以搜索到一些强大的  &lt;code&gt;Vim&lt;/code&gt;  配置文件。&lt;/p&gt;
 &lt;h1 id=&#34;总结&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#总结&#34;&gt;#&lt;/a&gt; 总结&lt;/h1&gt;
-&lt;p&gt;相信通过本文的学习，你应该会对  &lt;code&gt;Linux&lt;/code&gt;  有一个更加全面的认识。&lt;/p&gt;
+&lt;p&gt;相信通过本文的学习，大家应该会对  &lt;code&gt;Linux&lt;/code&gt;  有一个更加全面的认识。&lt;/p&gt;
 </content>
         <category term="Java" scheme="https://shaogezhu.cn/categories/java/" />
         <category term="技术实践" scheme="https://shaogezhu.cn/categories/java/practice/" />
