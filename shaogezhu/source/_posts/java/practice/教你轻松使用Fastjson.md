@@ -365,9 +365,8 @@ private Date birthDate;
 >
 > `$ref`：`$` 根对象
 >
-> ```
-> $ref`：`$.children.0` 基于路径的引用，相当于 `root.getChildren().get(0)
-> ```
+> `$ref`：`$.children.0` 基于路径的引用，相当于 `root.getChildren().get(0)`
+
 
 如果百分百肯定所要序列化的对象不存在循环引用问题，可以在序列化时关闭该检测功能（默认是开启的）。
 
