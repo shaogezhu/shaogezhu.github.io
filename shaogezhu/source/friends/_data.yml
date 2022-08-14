@@ -2,18 +2,18 @@
   owner: 田埂、
   url: https://www.shaogezhu.cn
   desc: 仍在奔赴远方路上的少年
-  image: https://cdn.jsdelivr.net/gh/shaogezhu/shaogezhu.github.io@latest/images/avatar.jpg
+  image: ../images/avatar.jpg
   color: "#e9546b"
 
 - site: 田埂の技术分享
   owner: 田埂、
   url: https://www.shaogezhu.cn
   desc: 仍在奔赴远方路上的少年
-  image: https://cdn.jsdelivr.net/gh/shaogezhu/shaogezhu.github.io@latest/images/my/66fdf39985471927.jpg
+  image: ../images/my/66fdf39985471927.jpg
 
 - site: 田埂の技术分享
   owner: 田埂、
   url: https://www.shaogezhu.cn
   desc: 仍在奔赴远方路上的少年
-  image: https://cdn.jsdelivr.net/gh/shaogezhu/shaogezhu.github.io@latest/images/my/-244fe442f506f29f.jpg
+  image: ../images/my/-244fe442f506f29f.jpg
   color: "#9d5b8b"
