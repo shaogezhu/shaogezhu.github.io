@@ -289,8 +289,8 @@
             <category term="Java" scheme="https://shaogezhu.cn/categories/java/" />
             <category term="技术实践" scheme="https://shaogezhu.cn/categories/java/practice/" />
             <category term="笔记" scheme="https://shaogezhu.cn/tags/%E7%AC%94%E8%AE%B0/" />
-            <category term="工具" scheme="https://shaogezhu.cn/tags/%E5%B7%A5%E5%85%B7/" />
             <category term="轮子" scheme="https://shaogezhu.cn/tags/%E8%BD%AE%E5%AD%90/" />
+            <category term="工具" scheme="https://shaogezhu.cn/tags/%E5%B7%A5%E5%85%B7/" />
             <pubDate>Sun, 21 Aug 2022 17:31:06 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;在 &lt;code&gt;java&lt;/code&gt;  的庞大体系中，其实有很多不错的小工具，也就是我们平常说的： &lt;code&gt;轮子&lt;/code&gt; 。如果在我们的日常工作当中，能够将这些轮子用户，再配合一下 &lt;code&gt;idea&lt;/code&gt;  的快捷键，可以极大得提升我们的开发效率🚀&lt;/p&gt;
@@ -2234,8 +2234,8 @@ set mouse=a &amp;quot; 激活鼠标，用鼠标选中时相当于进入可视模
             <link>https://shaogezhu.cn/2022/3/ead1dab4ce75/</link>
             <category term="Java" scheme="https://shaogezhu.cn/categories/java/" />
             <category term="学习笔记" scheme="https://shaogezhu.cn/categories/java/note/" />
-            <category term="JVM" scheme="https://shaogezhu.cn/tags/JVM/" />
             <category term="java" scheme="https://shaogezhu.cn/tags/java/" />
+            <category term="JVM" scheme="https://shaogezhu.cn/tags/JVM/" />
             <category term="垃圾回收" scheme="https://shaogezhu.cn/tags/%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/" />
             <pubDate>Sun, 20 Mar 2022 01:25:23 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
@@ -2286,8 +2286,8 @@ set mouse=a &amp;quot; 激活鼠标，用鼠标选中时相当于进入可视模
             <link>https://shaogezhu.cn/2022/3/24dc16aab990/</link>
             <category term="Java" scheme="https://shaogezhu.cn/categories/java/" />
             <category term="学习笔记" scheme="https://shaogezhu.cn/categories/java/note/" />
-            <category term="JVM" scheme="https://shaogezhu.cn/tags/JVM/" />
             <category term="java" scheme="https://shaogezhu.cn/tags/java/" />
+            <category term="JVM" scheme="https://shaogezhu.cn/tags/JVM/" />
             <category term="垃圾回收" scheme="https://shaogezhu.cn/tags/%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/" />
             <pubDate>Sat, 12 Mar 2022 01:25:23 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
@@ -2352,8 +2352,8 @@ set mouse=a &amp;quot; 激活鼠标，用鼠标选中时相当于进入可视模
             <link>https://shaogezhu.cn/2022/3/53fe22309155/</link>
             <category term="Java" scheme="https://shaogezhu.cn/categories/java/" />
             <category term="学习笔记" scheme="https://shaogezhu.cn/categories/java/note/" />
-            <category term="JVM" scheme="https://shaogezhu.cn/tags/JVM/" />
             <category term="java" scheme="https://shaogezhu.cn/tags/java/" />
+            <category term="JVM" scheme="https://shaogezhu.cn/tags/JVM/" />
             <category term="垃圾回收" scheme="https://shaogezhu.cn/tags/%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/" />
             <pubDate>Sun, 06 Mar 2022 00:23:23 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
@@ -2398,8 +2398,8 @@ set mouse=a &amp;quot; 激活鼠标，用鼠标选中时相当于进入可视模
             <link>https://shaogezhu.cn/2021/11/275d4281e1a0/</link>
             <category term="Java" scheme="https://shaogezhu.cn/categories/java/" />
             <category term="学习笔记" scheme="https://shaogezhu.cn/categories/java/note/" />
-            <category term="MySQL" scheme="https://shaogezhu.cn/tags/MySQL/" />
             <category term="笔记" scheme="https://shaogezhu.cn/tags/%E7%AC%94%E8%AE%B0/" />
+            <category term="MySQL" scheme="https://shaogezhu.cn/tags/MySQL/" />
             <pubDate>Tue, 30 Nov 2021 23:29:53 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;🥂上一篇文章说完 MySQL 的事务和锁了，这次来详细介绍一下在 MySQL 中一条更新语句的详细执行流程 (本文无特殊说明均是采用 Innodb 存储引擎)。&lt;/p&gt;
@@ -3473,8 +3473,8 @@ HyperLogLog 主要的应用场景就是进行基数统计。这个问题的应�
             <category term="Java" scheme="https://shaogezhu.cn/categories/java/" />
             <category term="技术实践" scheme="https://shaogezhu.cn/categories/java/practice/" />
             <category term="面试" scheme="https://shaogezhu.cn/tags/%E9%9D%A2%E8%AF%95/" />
-            <category term="java" scheme="https://shaogezhu.cn/tags/java/" />
             <category term="算法" scheme="https://shaogezhu.cn/tags/%E7%AE%97%E6%B3%95/" />
+            <category term="java" scheme="https://shaogezhu.cn/tags/java/" />
             <pubDate>Sat, 02 Oct 2021 20:45:48 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;我们现在大多 MySQL 数据库，生成 ID 的算法就是用的&lt;span class=&#34;pink&#34;&gt; SnowFlake&lt;/span&gt;，下面我们了解一下这个算法的生成原理，以及是如何工作的👀&lt;/p&gt;

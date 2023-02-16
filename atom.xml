@@ -563,8 +563,8 @@
         <category term="Java" scheme="https://shaogezhu.cn/categories/java/" />
         <category term="技术实践" scheme="https://shaogezhu.cn/categories/java/practice/" />
         <category term="笔记" scheme="https://shaogezhu.cn/tags/%E7%AC%94%E8%AE%B0/" />
-        <category term="工具" scheme="https://shaogezhu.cn/tags/%E5%B7%A5%E5%85%B7/" />
         <category term="轮子" scheme="https://shaogezhu.cn/tags/%E8%BD%AE%E5%AD%90/" />
+        <category term="工具" scheme="https://shaogezhu.cn/tags/%E5%B7%A5%E5%85%B7/" />
         <updated>2022-08-21T09:31:06.000Z</updated>
     </entry>
     <entry>
@@ -2272,8 +2272,8 @@ set mouse=a &amp;quot; 激活鼠标，用鼠标选中时相当于进入可视模
 </content>
         <category term="Java" scheme="https://shaogezhu.cn/categories/java/" />
         <category term="学习笔记" scheme="https://shaogezhu.cn/categories/java/note/" />
-        <category term="JVM" scheme="https://shaogezhu.cn/tags/JVM/" />
         <category term="java" scheme="https://shaogezhu.cn/tags/java/" />
+        <category term="JVM" scheme="https://shaogezhu.cn/tags/JVM/" />
         <category term="垃圾回收" scheme="https://shaogezhu.cn/tags/%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/" />
         <updated>2022-03-19T17:25:23.000Z</updated>
     </entry>
@@ -2338,8 +2338,8 @@ set mouse=a &amp;quot; 激活鼠标，用鼠标选中时相当于进入可视模
 </content>
         <category term="Java" scheme="https://shaogezhu.cn/categories/java/" />
         <category term="学习笔记" scheme="https://shaogezhu.cn/categories/java/note/" />
-        <category term="JVM" scheme="https://shaogezhu.cn/tags/JVM/" />
         <category term="java" scheme="https://shaogezhu.cn/tags/java/" />
+        <category term="JVM" scheme="https://shaogezhu.cn/tags/JVM/" />
         <category term="垃圾回收" scheme="https://shaogezhu.cn/tags/%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/" />
         <updated>2022-03-11T17:25:23.000Z</updated>
     </entry>
@@ -2384,8 +2384,8 @@ set mouse=a &amp;quot; 激活鼠标，用鼠标选中时相当于进入可视模
 </content>
         <category term="Java" scheme="https://shaogezhu.cn/categories/java/" />
         <category term="学习笔记" scheme="https://shaogezhu.cn/categories/java/note/" />
-        <category term="JVM" scheme="https://shaogezhu.cn/tags/JVM/" />
         <category term="java" scheme="https://shaogezhu.cn/tags/java/" />
+        <category term="JVM" scheme="https://shaogezhu.cn/tags/JVM/" />
         <category term="垃圾回收" scheme="https://shaogezhu.cn/tags/%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/" />
         <updated>2022-03-05T16:23:23.000Z</updated>
     </entry>
@@ -2472,8 +2472,8 @@ MySQL 里使用 WAL (预写式日志) 技术，WAL 的全称是  &lt;code&gt;Wri
 &lt;br&gt;</content>
         <category term="Java" scheme="https://shaogezhu.cn/categories/java/" />
         <category term="学习笔记" scheme="https://shaogezhu.cn/categories/java/note/" />
-        <category term="MySQL" scheme="https://shaogezhu.cn/tags/MySQL/" />
         <category term="笔记" scheme="https://shaogezhu.cn/tags/%E7%AC%94%E8%AE%B0/" />
+        <category term="MySQL" scheme="https://shaogezhu.cn/tags/MySQL/" />
         <updated>2021-11-30T15:29:53.000Z</updated>
     </entry>
     <entry>
@@ -3500,8 +3500,8 @@ HyperLogLog 主要的应用场景就是进行基数统计。这个问题的应�
         <category term="Java" scheme="https://shaogezhu.cn/categories/java/" />
         <category term="技术实践" scheme="https://shaogezhu.cn/categories/java/practice/" />
         <category term="面试" scheme="https://shaogezhu.cn/tags/%E9%9D%A2%E8%AF%95/" />
-        <category term="java" scheme="https://shaogezhu.cn/tags/java/" />
         <category term="算法" scheme="https://shaogezhu.cn/tags/%E7%AE%97%E6%B3%95/" />
+        <category term="java" scheme="https://shaogezhu.cn/tags/java/" />
         <updated>2021-10-02T12:45:48.000Z</updated>
     </entry>
     <entry>
