@@ -3157,10 +3157,10 @@ TCP 发送端和接收端都有一个固定大小的缓冲空间，为了防止�
 &lt;p&gt;&lt;strong&gt;NESTED&lt;/strong&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;如果当前存在事务，则在嵌套事务内执行。嵌套事务的提交与回滚与父事务没有任务关系，反之，当父事务提交嵌套事务也一起提交，父事务回滚会也回滚嵌套事务的。&lt;/p&gt;
+&lt;p&gt;如果当前没有事务，则新建一个事务运行，这时候则与 PROPAGATION_REQUIRED 场景一致。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;如果当前没有事务，则新建一个事务运行，这时候则与 PROPAGATION_REQUIRED 场景一致。&lt;/p&gt;
 &lt;p&gt;🚀🚀🚀&lt;br /&gt;
 &lt;br&gt;&lt;/p&gt;
 </content>
