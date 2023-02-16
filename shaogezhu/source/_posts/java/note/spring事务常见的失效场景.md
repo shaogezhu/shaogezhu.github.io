@@ -153,9 +153,11 @@ public class OrderServiceImpl implements OrderService {
 - **NESTED**
 
 	>如果当前存在事务，则在嵌套事务内执行。嵌套事务的提交与回滚与父事务没有任务关系，反之，当父事务提交嵌套事务也一起提交，父事务回滚会也回滚嵌套事务的。
+	>
+	>如果当前没有事务，则新建一个事务运行，这时候则与PROPAGATION_REQUIRED场景一致。
 
 
-如果当前没有事务，则新建一个事务运行，这时候则与PROPAGATION_REQUIRED场景一致。
+
 
 🚀🚀🚀
 <br>

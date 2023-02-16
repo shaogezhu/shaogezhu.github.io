@@ -9,7 +9,7 @@ copyright: false
 - 站名： 田埂の技术分享
 - 站长： 田埂、
 - 地址： https://shaogezhu.cn
-- 标志： ![田埂、](../images/avatar.jpg){height="100" width="100"}
+- 头像：https://shaogezhu.cn/images/avatar.jpg ![田埂、](../images/avatar.jpg){height="100" width="100"}
 - 简介： 仍在奔赴远方路上的少年
 
 # 申请方法
